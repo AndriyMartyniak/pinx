@@ -24,7 +24,7 @@ export const Reviews = () => {
               transition={{ duration: 0.5, delay: index * 0.2 }}
               className="bg-white p-6 rounded-lg shadow-md text-center"
             >
-              <p className="text-gray-600 mb-4">"{review.text}"</p>
+              <p className="text-gray-600 mb-4">&quot;{review.text}&quot;</p>
               <p className="font-semibold text-gray-900">{review.name}</p>
             </motion.div>
           ))}

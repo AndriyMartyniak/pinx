@@ -18,7 +18,7 @@ export const Header = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-2xl font-bold text-green-500">Pinx</h1>
+          <h1 className="text-2xl font-bold text-green-500">Pinsx</h1>
         </motion.div>
         <motion.button
           initial={{ opacity: 0, x: 20 }}
